@@ -27,7 +27,7 @@ gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
+#gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
@@ -49,6 +49,12 @@ end
 
 # Use devise for user auth
 gem 'devise', '~> 4.7.3'
+
+# Use stripe for handling payments
+gem 'stripe', '~> 5.29.0'
+
+# Use figaro to hide secret keys
+gem 'figaro', '~> 1.2.0'
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
